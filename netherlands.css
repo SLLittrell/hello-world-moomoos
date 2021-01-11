@@ -3,7 +3,7 @@ header {
     justify-content: space-around;
     padding: 40px 0;
     text-align: center;
-    background-color: lightslategray;
+    background-color: white;
 }
 
 .flagImage {
@@ -41,8 +41,9 @@ color: grey;
 }
 
 .amsterdamPic {
-object-position: center;
-}
+    flex: display;
+    justify-content: center;
+   }
 
 .countryFacts {
     display: flex;
